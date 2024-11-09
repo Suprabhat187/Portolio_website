@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>SUPRABHAT PORTFOLIO</title>
+
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/Portfolio-img.png" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>KASIBHATTA SUPRABHAT</h4>
+              <span>Computer Science Engineer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Education</a></li>
+                <li><a href="#section3">Projects</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <!-- LinkedIn Icon -->
+                <li>
+                  <a href="https://www.linkedin.com/in/suprabhat-kasibhatta/"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <!-- GitHub Icon -->
+                <li>
+                  <a href="https://github.com/your-username-here"><i class="fa fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>&copy; 2024 Suprabhat Kasibhatta. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+            <div class="section-heading">
+                <h2>About Me</h2>
+                <div class="line-dec"></div>
+                <span>
+                    I am Kasibhatta Suprabhat, a passionate BTech CSE student dedicated to continuous learning and skill development.
+                    Known for honesty and commitment, I look forward to embracing new challenges and expanding my knowledge.
+                </span>
+            </div>
+            <div class="left-image-post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left-image">
+                            <img src="assets/images/Portfolio-about.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-text">
+                            <h4>Cyber Security Enthusiast</h4>
+                            <p>
+                                As a cybersecurity enthusiast, I am always excited to solve new challenges and complex problems,
+                                constantly seeking opportunities to grow my expertise in this field. Along with cybersecurity, I am also
+                                interested in data analytics. I hold a Google Data Analytics Professional Certificate from Coursera.
+                                I am keen to learn new technologies and embrace continuous learning and growth.
+                            </p>
+    
+                            <!-- Hobbies section - Initially hidden -->
+                            <div id="more-info" style="display: none;">
+                                <h4>Hobbies</h4>
+                                <p>I have a keen interest in watching cricket, particularly enjoying both domestic and international matches.</p>
+                                <p>In addition, I have a deep appreciation for music, especially rock from the 70s and 80s.</p>
+                                <p>Another major hobby of mine is traveling, which allows me to explore new cultures, meet diverse people, and experience unique landscapes. Alongside this, I love photography, capturing the beauty and essence of the places I visit.</p>
+                            </div>
+    
+                            <!-- Read More Button -->
+                            <div class="white-button">
+                                <a href="#" id="read-more-btn" onclick="toggleMoreInfo()">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function toggleMoreInfo() {
+            const moreInfo = document.getElementById('more-info');
+            const readMoreBtn = document.getElementById('read-more-btn');
+            
+            // Toggle the display of the 'more-info' section
+            if (moreInfo.style.display === "none") {
+                moreInfo.style.display = "block";  // Show hobbies section
+                readMoreBtn.textContent = "Read Less";  // Change button text
+            } else {
+                moreInfo.style.display = "none";  // Hide hobbies section
+                readMoreBtn.textContent = "Read More";  // Reset button text
+            }
+        }
+    </script>
+    
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>MY EDUCATION</h2>
+            <div class="line-dec"></div>
+            <span
+              >Below are the details of my education, along with the institutes and schools I have attended.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>BTECH(2022-26)</h4>
+                <p>
+                  Currently pursuing BTECH in Computer
+                  Science And Engineering At Symbiosis
+                  Institute Of Technology with a CGPA of 7.95.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>11th & 12th in MPC(2020-2022)</h4>
+                <p>
+                  Secured an overall 90% in Maths Physics Chemistry
+                  at Narayana Junior College
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>CBSE (2014-2020)</h4>
+                <p>
+                  Secured 91% in the 10th CBSE
+                  board exams, studying at Ameya World
+                  School.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>PROJECTS</h2>
+            <div class="line-dec"></div>
+            <span>A brief overview of the projects I have worked on and their details.</span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="IPL-icon service-icon"></div>
+                <h4>IPL Stats Manager</h4>
+                <p>
+                  Created a Cricket Stats Management System using NetBeans, Java, and SQL, covering IPL data from 2008 to 2023.
+                  Key features include performing data operations and displaying stats across multiple IPL seasons, allowing easy
+                  stat search through a simple interface.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="Logo-icon service-icon"></div>
+                <h4>Profile Guard: Fake Profile Detection</h4>
+                <p>
+                  Developed a Fake Profile Detection System using Python and the K-Nearest Neighbors (KNN) Algorithm. Built and
+                  trained a Machine Learning Model with a user-friendly website interface using Flask, HTML, and CSS.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="portfolio-icon service-icon"></div>
+                <h4>Portfolio Website</h4>
+                <p>
+                  Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and
+                  achievements. The website is fully responsive and includes smooth navigation.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="akshar-paaul-icon service-icon"></div>
+                <h4>NGO Service Learning Project</h4>
+                <p>
+                  Built a website for an NGO as part of a service learning project using HTML, CSS, Python, and JavaScript. The
+                  website includes a feedback feature for books issued in the library, which was a primary requirement of the NGO.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span>
+              You can contact me using the details mentioned below. Thank You!
+            </span>
+          </div>
+          <div class="row">
+            <!-- Left side for phone number -->
+            <div class="col-md-6">
+              <div class="contact-info">
+                <h4>Phone Number</h4>
+                <p>Personal: +91 9391753782</a></p>
+              </div>
+            </div>
+            <!-- Right side for email -->
+            <div class="col-md-6">
+              <div class="contact-info">
+                <h4>Email</h4>
+                <p>Personal: suprabhatkasibhatta@gmail.com</a></p>
+                <p>Professional: kasibhatta.suprabhat.btech2022@sitpune.edu.in</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- Resume download -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="contact-info">
+                <h4>Download My Resume</h4>
+                <p>For more details you can download my Resume by clicking on the LINK below:</p>
+                <a href="./assets/Resume/SuprabhatKasibhatta Resume.pdf" class="button" download>Download Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
